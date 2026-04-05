@@ -1,0 +1,70 @@
+<svg width="100%" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#B83A08"/>
+      <stop offset="50%" stop-color="#D96010"/>
+      <stop offset="100%" stop-color="#F5A825"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#C44410"/>
+      <stop offset="100%" stop-color="#F0A020"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#D05515"/>
+      <stop offset="100%" stop-color="#F5B030"/>
+    </linearGradient>
+    <linearGradient id="bodyG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E07818"/>
+      <stop offset="100%" stop-color="#F5B030"/>
+    </linearGradient>
+    <linearGradient id="tailG" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#D06010"/>
+      <stop offset="100%" stop-color="#F0A020"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== BIRD centered around x=400, top area ===== -->
+  <!-- The bird faces RIGHT, has 3 upward flame-like wing feathers, a round body, and a downward-curving tail -->
+
+  <!-- TAIL - sweeping down-left from body -->
+  <path d="M368 295 Q340 330 318 370 Q330 340 348 310 Q358 298 370 292 Z" fill="url(#tailG)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- tail inner highlight -->
+  <path d="M370 292 Q348 322 332 355 Q342 328 356 305 Q363 296 372 291 Z" fill="#F0A828" opacity="0.55" style="fill:rgb(240, 168, 40);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.55;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- BODY - teardrop going right -->
+  <ellipse cx="400" cy="285" rx="42" ry="30" fill="url(#bodyG)" transform="rotate(-15 400 285)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- HEAD - smaller circle at right of body -->
+  <circle cx="428" cy="268" r="19" fill="#E88020" style="fill:rgb(232, 128, 32);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- BEAK - thin pointed right -->
+  <path d="M445 264 Q475 260 480 265 Q475 270 445 272 Z" fill="#D96010" style="fill:rgb(217, 96, 16);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- EYE -->
+  <circle cx="434" cy="264" r="4" fill="#2a2a28" style="fill:rgb(42, 42, 40);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="435.5" cy="263" r="1.5" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- WING FEATHERS - 3 flame-like shapes curving upward -->
+  <!-- Feather 1: leftmost / outermost, tallest -->
+  <path d="M390 278&#10;           C 382 250, 372 210, 376 165&#10;           C 380 185, 386 220, 390 245&#10;           C 396 260, 400 270, 402 278&#10;           Z" fill="url(#g1)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Feather 2: middle -->
+  <path d="M398 275&#10;           C 392 248, 386 210, 392 168&#10;           C 396 192, 400 226, 403 250&#10;           C 406 264, 408 272, 410 276&#10;           Z" fill="url(#g2)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Feather 3: innermost / shortest -->
+  <path d="M406 274&#10;           C 402 252, 400 220, 406 182&#10;           C 409 205, 412 235, 414 257&#10;           C 415 266, 416 272, 416 275&#10;           Z" fill="url(#g3)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Wing base cover to blend feathers into body -->
+  <path d="M388 278 Q400 265 416 274 Q410 282 398 285 Q392 283 388 278 Z" fill="#C84A0C" opacity="0.4" style="fill:rgb(200, 74, 12);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ===== TEXT ===== -->
+  <!-- "Season" -->
+  <text x="72" y="312" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="400" fill="#3a3a38" letter-spacing="-1" style="fill:rgb(58, 58, 56);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:112px;font-weight:400;text-anchor:start;dominant-baseline:auto">Season</text>
+
+  <!-- "bird" -->
+  <text x="470" y="312" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="400" fill="#3a3a38" letter-spacing="-1" style="fill:rgb(58, 58, 56);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:112px;font-weight:400;text-anchor:start;dominant-baseline:auto">bird</text>
+
+  <!-- "holidays" -->
+  <text x="470" y="375" font-family="'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="300" fill="#3a3a38" letter-spacing="3" style="fill:rgb(58, 58, 56);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:50px;font-weight:300;text-anchor:start;dominant-baseline:auto">holidays</text>
+
+</svg>
